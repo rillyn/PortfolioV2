@@ -1,0 +1,130 @@
+.jumbotron {
+  padding-top: 6rem;
+}
+body {
+  min-height: 100vh;
+  background-color: #0d47a1;
+  background: linear-gradient(to right, #0d47a1, #fffde7);
+  color: #ffffff;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+/* Hover zoom untuk gambar Galeri dan Sertifikat */
+.gallery-card img,
+.certificate-card img {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover img,
+.certificate-card:hover img {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+.card.article-card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.article-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+/* kontak */
+.shadow-custom {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-custom:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Hover zoom dan warna ikon */
+.contact-icon {
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-icon:hover {
+  color: #0d47a1; /* warna biru gelap */
+  transform: scale(1.1);
+  text-decoration: none;
+}
+/* form */
+.shadow-custom {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-custom:hover {
+  transform: scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+/* shadow  dan hover sertifikat */
+.shadow-custom {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-custom:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+}
+/* shadow about me */
+.shadow-only {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* bayangan halus */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-only:hover {
+  transform: scale(1.01); /* sedikit membesar saat hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+/* shadow projects */
+.project-card {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.4);
+}
+/* nav cahaya */
+.nav-link {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #e7ebf1 !important;
+  text-shadow: 0 0 5px rgba(233, 235, 240, 0.7), 0 0 10px rgba(236, 239, 245, 0.5), 0 0 20px rgba(13, 71, 161, 0.4);
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ffff; /* Border putih */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5); /* Shadow tebal */
+}
+/* nav cahaya design */
+.navbar-brand {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #e7ebf1 !important;
+  text-shadow: 0 0 5px rgba(233, 235, 240, 0.7), 0 0 10px rgba(236, 239, 245, 0.5), 0 0 20px rgba(13, 71, 161, 0.4);
+}
